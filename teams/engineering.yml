@@ -25,6 +25,9 @@ controls:
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-wallpaper.ps1
+  ipados_updates:
+    deadline: "2025-02-24"
+    minimum_version: "26.0"
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
