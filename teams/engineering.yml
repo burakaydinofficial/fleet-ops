@@ -28,6 +28,7 @@ controls:
   ipados_updates:
     deadline: "2025-02-24"
     minimum_version: "26.0"
+  enable_disk_encryption: true
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
